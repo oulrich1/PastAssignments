@@ -1,0 +1,2 @@
+makedepend globals.cpp error.cpp gpl_assert.cpp gpl_type.cpp gpl.cpp indent.cpp symbol_table.cpp variable.cpp expression.cpp animation_block.cpp circle.cpp event_manager.cpp game_object.cpp pixmap.cpp rectangle.cpp statement_block.cpp textbox.cpp triangle.cpp window.cpp statement.cpp y.tab.c lex.yy.c gpl.y
+Resolving Dependencies

@@ -1,0 +1,36 @@
+﻿Build started 9/14/2013 2:13:45 PM.
+     1>Project "J:\IGV\Fall2013\IGV_CODE_1-16-13\IGV_PROJECT_CODE\IGV_PROJECT_CODE\IGV_PROJECT_CODE.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\IGV_PROJECT_CODE.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\IGV_PROJECT_CODE.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\icormery\Documents\Chico\IGV\IGV_CODE_1-16-13\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\decide.cpp ..\..\Galil_IGV.cpp ..\..\globals.cpp ..\..\IGV_main.cpp ..\..\stereo.cpp
+         decide.cpp
+         Galil_IGV.cpp
+     1>..\..\Galil_IGV.cpp(482): warning C4101: 'normalizedLX' : unreferenced local variable
+     1>..\..\Galil_IGV.cpp(484): warning C4101: 'normalizedMagnitude' : unreferenced local variable
+     1>..\..\Galil_IGV.cpp(483): warning C4101: 'normalizedLY' : unreferenced local variable
+     1>..\..\Galil_IGV.cpp(481): warning C4101: 'magnitude' : unreferenced local variable
+     1>..\..\Galil_IGV.cpp(480): warning C4101: 'LY' : unreferenced local variable
+     1>..\..\Galil_IGV.cpp(479): warning C4101: 'LX' : unreferenced local variable
+         globals.cpp
+         IGV_main.cpp
+         stereo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\IGV\Fall2013\IGV_CODE_1-16-13\IGV_PROJECT_CODE\Release\IGV_PROJECT_CODE.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Oriah\Documents\Chico\IGV\IGV_CODE_1-16-13\lib" Xinput.lib Galil2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\IGV\Fall2013\IGV_CODE_1-16-13\IGV_PROJECT_CODE\Release\IGV_PROJECT_CODE.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\IGV\Fall2013\IGV_CODE_1-16-13\IGV_PROJECT_CODE\Release\IGV_PROJECT_CODE.lib" /MACHINE:X86 /SAFESEH Release\decide.obj
+         Release\Galil_IGV.obj
+         Release\globals.obj
+         Release\IGV_main.obj
+         Release\stereo.obj
+         Generating code
+         Finished generating code
+         IGV_PROJECT_CODE.vcxproj -> J:\IGV\Fall2013\IGV_CODE_1-16-13\IGV_PROJECT_CODE\Release\IGV_PROJECT_CODE.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\IGV_PROJECT_CODE.unsuccessfulbuild".
+         Touching "Release\IGV_PROJECT_CODE.lastbuildstate".
+     1>Done Building Project "J:\IGV\Fall2013\IGV_CODE_1-16-13\IGV_PROJECT_CODE\IGV_PROJECT_CODE\IGV_PROJECT_CODE.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.90

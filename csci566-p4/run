@@ -1,0 +1,24 @@
+#! /bin/bash
+
+
+TARGET="maze"
+
+
+# if there is an arument..
+if [ -n "$1" ]; then
+	if [ $1 = "-c" ]; then
+		echo "Cleaning And Running: $TARGET"
+		make clean
+		premake4 gmake
+	elif [ $1 = "-cc" ]; then
+		echo "Cleaning Project: $TARGET"
+		make clean
+		premake4 gmake
+		exit
+	fi
+fi
+
+make 
+./bin/$TARGET
+
+

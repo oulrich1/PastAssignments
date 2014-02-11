@@ -1,0 +1,5 @@
+#! /bin/bash
+
+premake4 clean
+premake4 gmake
+make
