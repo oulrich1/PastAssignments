@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/main/res" >
+            <file
+                name="icon"
+                path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="main"
+                path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="btnIntend" >Take (big) Picture
+                </string>
+                <string name="app_name" >PhotoByIntent
+                </string>
+                <string name="btnIntendS" >Take (small) Picture
+                </string>
+                <string name="album_name" >CameraSample
+                </string>
+                <string name="cannot" >Cannot
+                </string>
+                <string name="btnIntendV" >Take Video
+                </string>
+                <string name="hello" >Hello World, PhotoIntentActivity!
+                </string>
+            </file>
+            <file
+                name="main"
+                path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/main/res/layout-land/main.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="icon"
+                path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+        </source>
+        <source path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/build/res/rs/debug" />
+        <source path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/oriah/projects/android_workspace/CSCI567_Android/PhotoIntentActivity1/app/src/debug/res" />
+    </dataSet>
+
+</merger>
